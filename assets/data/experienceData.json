@@ -1,0 +1,191 @@
+{
+  "_READcommentForPORTFOLIO" : [
+    {
+      "_projId": "000",
+      "_projTitle": "Title",
+      "_projDate": "DD Month YYYY",
+      "_projSummary" : "Summary",
+      "_projImage" : "assets/projectFiles/images/",
+      "_projDocument" : "assets/projectFiles/ppts/ OR URL",
+      "_projEssay": "READ BELLOW FOR INSTRUCTIONS ON MANIPULATING PARAGRAPHS!"
+    },
+    {
+      "_forLineBreaks" : "use \n",
+      "_forQuotationMarks" : "use \"for quotes"
+    },
+    {
+      "_step1" : "copy top object; from projId to projEssay",
+      "_step2" : "paste at the bottom of the blogs[] bellow",
+      "_step3" : "delete the underscore ( _ ) from each tag after pasting",
+      "_step4" : "edit it accordingly",
+      "_note" : "when dowloading images, save them on the assets >> blogImgs folder. Try to save small files. 2Mb max of image size.",
+      "_note2" : "when copying and pasting objects, paste at the bottom of the array. When shown on the page, the filter shows them in reverse order."
+    },
+    {
+      "_projId": "number",
+      "_projTitle": "string",
+      "_projDate": "DD Month YYYY",
+      "_projSummary" : "string",
+      "_projImage" : "projectPath",
+      "_projDocument" : "projectPath or link",
+      "_projEssay": "string"
+    },
+    {
+      "_position" : "string",
+      "_companyName": "string",
+      "_description" : [
+        {
+          "_desc" : "string"
+        },
+        {
+          "_desc" : "string"
+        }
+      ],
+      "_workLength" : "string",
+      "_location" : "string"
+    }
+  ],
+  "portfolio" : [
+    {
+      "portfolioTitle": "CS 112: Data Structures",
+      "projects" : [
+        {
+          "projId": "1",
+          "projTitle": "Minimum Spanning Tree",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Implemented a Graph and Heap to find the quickest route from a starting index to an ending index",
+          "projImage" : "assets/projectFiles/images/brooklingBridge.jpg",
+          "projDocument" : "https://github.com/chrismathew3/CS-112-Data/tree/master/MST",
+          "projEssay": ""
+        },
+        {
+          "projId": "2",
+          "projTitle": "Little Search Engine",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Implemented a Hashtable to create a search egnine that would use keywords to check whether a given input was present in the files and if so at what frequency",
+          "projImage" : "",
+          "projDocument" : "https://github.com/chrismathew3/CS-112-Data/tree/master/Little%20Search%20Engine",
+          "projEssay": ""
+        },
+        {
+          "projId": "3",
+          "projTitle": "Interval Tree",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Implemented a Binary Search Tree and a Queue to map a set of intervals in numerical order",
+          "projImage" : "",
+          "projDocument" : "https://github.com/chrismathew3/CS-112-Data/tree/master/Interval%20Tree",
+          "projEssay": ""
+        },
+        {
+          "projId": "4",
+          "projTitle": "Expression Evaluation",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Implemented Stacks to compute basic mathematical expressions",
+          "projImage" : "",
+          "projDocument" : "https://github.com/chrismathew3/CS-112-Data/tree/master/Expression%20Evaluation",
+          "projEssay": ""
+        },
+        {
+          "projId": "5",
+          "projTitle": "Solitaire Encryption",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Implemented Linked Lists to encrpt and decrpyt a message using the Bruce Scheiner's Solitaire Encryption Algorithm",
+          "projImage" : "",
+          "projDocument" : "https://github.com/chrismathew3/CS-112-Data/tree/master/Solitaire",
+          "projEssay": ""
+        }
+      ]
+    },
+    {
+      "portfolioTitle" : "CS 211: Computer Architecture",
+      "projects" : [
+        {
+          "projId": "1",
+          "projTitle": "y86 Emulator",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Created a C Program that takes in a file of y86 assembly instructions and data and simulates the y86 program",
+          "projImage" : "assets/projectFiles/images/",
+          "projDocument" : "https://github.com/chrismathew3/CS-211-Computer-Architecture/tree/master/pa3",
+          "projEssay": "READ BELLOW FOR INSTRUCTIONS ON MANIPULATING PARAGRAPHS!"
+        }
+      ]
+    },
+    {
+      "portfolioTitle" : "Side Projects",
+      "projects" : [
+        {
+          "projId": "1",
+          "projTitle": "Alien Invasion",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "Python game based off the old school classic game Space Invaders",
+          "projImage" : "",
+          "projDocument" : "https://github.com/chrismathew3/Alien-Invasion",
+          "projEssay": ""
+        },
+        {
+          "projId": "2",
+          "projTitle": "War",
+          "projDate": "DD Month YYYY",
+          "projSummary" : "IOS app based off the simple card game War written in Swift",
+          "projImage" : "",
+          "projDocument" : "https://github.com/chrismathew3/War",
+          "projEssay": ""
+        }
+      ]
+    }
+  ],
+  "workXp" : [
+    {
+      "position" : "Software Engineer Intern",
+      "companyName": "The Idea Makers",
+      "description" : [
+        {
+          "desc" : "Begun the redesign of the company webpage by using Illustrator to design the layouts for the site and HTML5/CSS/JavaScript to create the front-end of the homepage"
+        },
+        {
+          "desc" : "Added user-interface features such as a search engine and a messaging component into an IOS app using Swift in Xcode and Firebase"
+        },
+        {
+          "desc" : "Integrated the mailgun API into the company’s Project Estimation Tool (PET) to automate the email sending process after a user entered his/her information and project request into the application"
+        }
+      ],
+      "workLength" : "June 2017 - August 2017",
+      "location" : "Ridgewood, NJ"
+    },
+    {
+      "position" : "IOS/Web Developer Intern",
+      "companyName": "TravSolo",
+      "description" : [
+        {
+          "desc" : "Re-Created the company's website using HTML/CSS/Javascript."
+        },
+        {
+          "desc" : "Specifically used the bootstrap framework to make all design aspects of the website mobile ready."
+        }
+      ],
+      "workLength" : "November 2017 - January 2017",
+      "location" : "Greater New York City Area"
+    },
+    {
+      "position" : "Summer Technology Analyst",
+      "companyName": "Barclays Investment Bank",
+      "description" : [
+        {
+          "desc" : "Worked on adding functionality to a conversational style chatbot using the python flask framework that improved the operational efficiency of IT teams significantly by automating highly manual workflows."
+        },
+        {
+          "desc" : "Integrated a custom speech recognition engine using the CMU Sphinx Open-Source Platform by creating custom acoustic, language, and phonetic models using curated data."
+        },
+        {
+          "desc" : "Created a series of unit tests which were used for automatic code quality checks in our deployment pipeline using the unittest framework."
+        },
+        {
+          "desc" : "Re-Architected the API's utilized within the chatbot to scale for enterprise grade applications."
+        }
+      ],
+      "workLength" : "June 2018 - August 2018",
+      "location" : "New York, New York"
+    }
+  ]
+
+}
